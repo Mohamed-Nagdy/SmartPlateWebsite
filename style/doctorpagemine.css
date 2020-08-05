@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+body{
+   background-color: white;
+}
+
+
+
+
+.container{
+  display: flex;
+  position: relative;
+}
+
+
+
+.container .sidebar{
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  background-color:#F7F7F7;
+  text-align: center;
+  border: 0.5px solid #d8d8d8 ;
+}
+
+
+
+img {
+  height: 150px;
+  width:150px;
+  border-radius: 50% ;
+  margin-top: 5px;
+  display:block;
+  margin-left: 100px;
+  padding-bottom: 20px;
+
+}
+
+
+.container .sidebar .DoctorName {
+	color: #008ecc;
+	font-size: 30px;
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  align-items: center;
+	display: block;
+
+
+}
+
+
+.container .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+
+
+.container .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.logo{
+height: 50px;
+  width:50px;
+margin-left: 20px;
+
+
+}
+
+
+.container .main_content{
+  width: 100%;
+  margin-left: 400px !important ;
+
+}
+
+.container .navbar ul li{
+  padding: 15px;
+}
+
+
+
+.navbar{
+  margin-left: 20px;
+  margin-right:20px;
+	height: 180px;
+	align-content:center;
+  border-bottom: 5px solid #ffd500;
+}
+
+
+.navbar .navbar-profile{
+  font-size: 2.7em ;
+  color:#29263f;
+  font-weight: 400;
+  margin-left: 25px;
+  margin-top: 15px ;
+}
+
+
+#menu{
+	align-content: left;
+	text-align:left;
+	padding-top:65px;
+  padding-left: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+#menu li{
+	list-style-type: none;
+	display: inline;
+  padding-top: 20px;
+}
+
+
+#menu a{
+	text-decoration: none;
+	color:#29263f;
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 10px;
+  margin-bottom: 20px !important;
+	margin-top:30px;
+}
+
+
+.main_content .navbar ul li:hover{
+        background-color: #ffd500;
+      }
+
+
+.main_content .navbar ul li:hover a{
+        color: #fff !important;
+      }
+
+
+.active{
+  background-color: #ffd500;
+  margin-right: 5px;
+
+}
+
+
+.post{
+  width:800px;
+  margin-left:20px;
+  height: 550px;
+  background-color: #E4E4E4;
+  margin-bottom: 20px !important;
+}
+
+textarea{
+  text-align: center;
+  border-width: 2px;
+	width: 500px;
+  height: 250px;
+  padding-top: 30px;
+  font-size: 0.5em;
+  font-weight: bold;
+  border-radius: 50px ;
+
+
+}
+
+.post-content{
+  padding-left: 30px;
+  margin-top: 50px;
+  border-radius: 50px;
+  font-size: 1.3em;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+
+}
+
+
+
+.post-title{
+
+
+  padding-left: 30px;
+  font-size: 1.3em;
+  border-radius: 1px;
+}
+
+
+input{
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  background-color: #29263f;
+  color: white;
+}
+
+.postTitle{
+  width:300px !important;
+  height:30px;
+}
+
+#content{
+  padding-bottom : 20px !important;
+  color:#29263f;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#title{
+
+  color:#29263f;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+.home{
+  margin-left: 30px;
+  padding: 20px;
+}
+
+
+
+
+.select{
+  margin-left:30px;
+}
